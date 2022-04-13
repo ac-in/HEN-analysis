@@ -21,7 +21,7 @@ The generic assumptions and heuristics for the mathematical approach to heat exc
 >Using PAT for HEN anlysis usually results in 20% energy savings.
 
 
-# how does the code work:
+# How does the code work:
 
 
 
