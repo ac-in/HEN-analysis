@@ -44,15 +44,31 @@ The working is explained using a flowsheet:
 
 Gives the energy balance for each temperature interval, labelling  them as 'surplus' for heat rejected to cold utility and 'deficit' for heat taken from hot utility.
 
+> `pinch.constructProblemTable()
+pinch.showPlots()`
+
+> <img width="341" alt="Screenshot 2022-04-13 at 9 58 30 PM" src="https://user-images.githubusercontent.com/73723279/163227086-5987a614-4ebe-437a-89bf-fb60bfddeca0.png">
+
 
 # Cascade Analysis:
 
 Derives the minimum hot and cold utility requirements as per the feasibility.
 
+> `pinch.constructHeatCascade()
+pinch.showPlots()`
+
+> <img width="429" alt="Screenshot 2022-04-13 at 9 59 21 PM" src="https://user-images.githubusercontent.com/73723279/163227199-3356f98c-8657-4447-a9ef-a66b34d85857.png">
+
+
 
 # Pinch in grid representation
 
 The graph gives the location of pinch in the temperature intervals which is important for determining number of minimum number of heat exchangers above and below pinch.
+
+> `Pinch_in_the_grid_representation()`
+
+> <img width="626" alt="Screenshot 2022-04-13 at 10 00 18 PM" src="https://user-images.githubusercontent.com/73723279/163227383-f2e817a3-8937-4f83-aa9c-72a357cc3a39.png">
+
 
 
 # Composite Curve
@@ -63,6 +79,15 @@ Within each temperature interval, the grand composite curve provides a graphical
 the extra heat accessible to a process.
 
 The grand composite curve is essential for optimizing the heat exchanger network.
+
+> `pinch.constructShiftedCompositeDiagram()
+pinch.showPlots()`
+
+> <img width="445" alt="Screenshot 2022-04-13 at 10 00 52 PM" src="https://user-images.githubusercontent.com/73723279/163227465-d84c3c97-874f-4074-bf47-163ac49d32b8.png">
+
+> <img width="445" alt="Screenshot 2022-04-13 at 10 01 29 PM" src="https://user-images.githubusercontent.com/73723279/163227580-828e6969-1d04-4589-8ef7-1ded5be64e99.png">
+
+> <img width="445" alt="Screenshot 2022-04-13 at 10 01 39 PM" src="https://user-images.githubusercontent.com/73723279/163227610-0f915910-9cda-48a4-8be3-cc4448fba5e2.png">
 
 
 # Future Prospects:
