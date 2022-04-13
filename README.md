@@ -8,4 +8,9 @@ The generic assumptions and heuristics for the mathematical approach to heat exc
 
 # What is HEN-analysis:
 
-> HEN is networks of heat exhangers used to transfer heat from multiple hot streams to multiple cold streams. Heat exchanger network (HEN) is an important > technique for maximizing heat recovery in the industrial chemical process and reducing external heating and cooling utilities.
+> HEN is networks of heat exhangers used to transfer heat from multiple hot streams to multiple cold streams. Heat exchanger network (HEN) is an important  
+> technique for maximizing heat recovery in the industrial chemical process and reducing external heating and cooling utilities.
+
+<img width="398" alt="Screenshot 2022-04-13 at 9 33 49 PM" src="https://user-images.githubusercontent.com/73723279/163222654-ddd251c2-4fdf-45ce-acd3-2c11320f8240.png">
+
+
