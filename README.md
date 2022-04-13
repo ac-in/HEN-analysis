@@ -14,3 +14,87 @@ The generic assumptions and heuristics for the mathematical approach to heat exc
 <img width="398" alt="Screenshot 2022-04-13 at 9 33 49 PM" src="https://user-images.githubusercontent.com/73723279/163222654-ddd251c2-4fdf-45ce-acd3-2c11320f8240.png">
 
 
+# Pinch Analysis technique (PAT)
+
+> Designing a Heat Exchangers Network [HEN] by application of pinch analysis is an effective >technique for energy integration 
+>The technique estimates the minimum hot and cold utilities and the pinch point by the construction of a problem table and composite curves.
+>Using PAT for HEN anlysis usually results in 20% energy savings.
+
+
+# how does the code work:
+
+
+
+https://user-images.githubusercontent.com/73723279/163225769-7610c6ba-f31c-4a1c-97da-a6d5dc5632c3.mp4
+
+
+
+The working is explained using a flowsheet:
+
+
+<img width="728" alt="Screenshot 2022-04-13 at 9 38 45 PM" src="https://user-images.githubusercontent.com/73723279/163223547-2c750e35-b37b-4c43-9f3d-706ea84eb8fd.png">
+
+> The results obtained from it are listed below:
+> - Problem Table
+> - Cascade Anlaysis
+> - Pinch Grid Representation
+> - Composite Curves
+
+# Problem Table:
+
+Gives the energy balance for each temperature interval, labelling  them as 'surplus' for heat rejected to cold utility and 'deficit' for heat taken from hot utility.
+
+
+# Cascade Analysis:
+
+Derives the minimum hot and cold utility requirements as per the feasibility.
+
+
+# Pinch in grid representation
+
+The graph gives the location of pinch in the temperature intervals which is important for determining number of minimum number of heat exchangers above and below pinch.
+
+
+# Composite Curve
+
+The grand composite curve gives us the heat transfer between various temperature intervals We cascade heat to lower temperature intervals in intervals where there is a net heat excess.
+
+Within each temperature interval, the grand composite curve provides a graphical representation of
+the extra heat accessible to a process.
+
+The grand composite curve is essential for optimizing the heat exchanger network.
+
+
+# Future Prospects:
+
+The minimum number of heat exchangers required can be found by employing an optimisation algorithm to eliminate all the loops in the heat exchanger network this is done by the MINLP optimisation algorithm. The mathematical model on which the algorithm is based on matching the stream energies . 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
